@@ -1,0 +1,10 @@
+[general]
+#logLevel = debug
+
+[rawtarget:tcp]
+server = <your_server_ip>:10520
+protocol = tcp
+
+[rawtarget:udp]
+server = <your_server_ip>:10521
+protocol = udp

@@ -1,0 +1,11 @@
+[general]
+#logLevel = debug
+#timeout = 5s
+
+[ceftarget:tcp]
+server = <your_server_ip>:10522
+protocol = tcp
+
+[ceftarget:udp]
+server = <your_server_ip>:10523
+protocol = udp
