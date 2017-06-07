@@ -1,5 +1,6 @@
 [general]
 #logLevel = debug
+#timeout = 5s
 
 [rawtarget:tcp]
 server = <your_server_ip>:10520
